@@ -1,0 +1,27 @@
+.container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    .column-left {
+        .image {
+            text-align: center;
+            img {
+                width: 50%;
+            }
+        }
+    }
+    .column-right {
+        .infos {
+            img {
+                width: 18%;
+            }
+        }
+        .buttons{
+            width: 100%;
+            text-align: right;
+            button{
+                margin-left: 10px;
+            }
+        }
+    }
+}

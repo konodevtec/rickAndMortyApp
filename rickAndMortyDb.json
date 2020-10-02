@@ -1,0 +1,122 @@
+{
+  "ricks": [
+    {
+      "id": 1,
+      "name": "Rick SAnchez",
+      "description": "Richard 'Rick' Sanchez, also known as Rick C-137, is the titular main protagonist of Rick and Morty. He is a genius scientist whose alcoholism and reckless, nihilistic behavior are a source of concern for his daughter's family, as well as the safety of their son, Morty.",
+      "image": "../assets/api/ricks/1.png",
+      "dimension": "C-137",
+      "navigation": [
+        "C-137"
+      ],
+      "morty": {
+        "name": "Morty Smith",
+        "image": "../assets/api/mortys/1.png"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Alien Rick",
+      "description": "Alien Rick is an alternate version of Rick Sanchez with alien-like appearance.",
+      "image": "../assets/api/ricks/2.png",
+      "dimension": "C-786",
+      "navigation": [
+        "C-786",
+        "Y-2312"
+      ],
+      "morty": {
+        "name": "Alien Morty",
+        "image": "../assets/api/mortys/2.png"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Fancy Rick",
+      "description": "Fancy Rick was a Rick working as a hairdresser at his own salon, 'Rick Salon', at The Citadel. He worked to create a creature by mixing Rick and Morty DNA, but was killed by Rick Sanchez before he could finish it.",
+      "image": "../assets/api/ricks/3.png",
+      "dimension": "W-675",
+      "navigation": [
+        "W-675"
+      ],
+      "morty": {
+        "name": "Bald Morty",
+        "image": "../assets/api/mortys/3.png"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Afro Rick",
+      "description": "Afro Rick is an alternate version of Rick Sanchez with an afro, and of African-American descent.",
+      "image": "../assets/api/ricks/4.png",
+      "dimension": "E-33",
+      "navigation": [
+        "T-123123",
+        "asdasdasd",
+        "asdasdasd",
+        "asdasdasd",
+        "sadasdasd",
+        "ssssss"
+      ],
+      "morty": {
+        "name": "Afro Morty",
+        "image": "../assets/api/mortys/4.png"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Antenna Rick",
+      "description": "Antenna Rick is an alternate version of Rick Sanchez who has two green antennas on his head.",
+      "image": "../assets/api/ricks/5.png",
+      "dimension": "E-56",
+      "navigation": [
+        "E-56"
+      ],
+      "morty": {
+        "name": "Antenna Morty",
+        "image": "../assets/api/mortys/5.png"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Cat Rick",
+      "description": "Cat Rick Sanchez is an alternative version of Rick from a dimension where humans are cat-people, he appeared briefly in the background in Rick and Morty Issue 22, he is the father of Cat Beth, and the maternal grandfather of Cat Morty. He is a member of the Citadel's militia.",
+      "image": "../assets/api/ricks/6.png",
+      "dimension": "C-142",
+      "navigation": [
+        "C-142"
+      ],
+      "morty": {
+        "name": "Cat Morty",
+        "image": "../assets/api/mortys/6.png"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Cool Rick",
+      "description": "Rick Sanchez (K-83), affectionately known as Cool Rick, is the current supervisor at the Simple Rick’s Wafer Cookie factory. He was given the position after the previous supervisor was promoted to Regional Manager.",
+      "image": "../assets/api/ricks/7.png",
+      "dimension": "E-512",
+      "navigation": [
+        "E-512"
+      ],
+      "morty": {
+        "name": "Slick Morty",
+        "image": "../assets/api/mortys/7.png"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Toxic Rick",
+      "description": "Toxic Rick (aka Gunk Rick the closed captions) is the embodiment of all qualities Rick deems negative, created as the result of Rick and Morty having all their cognitive toxins removed in an intergalactic day spa. His only appearance was in 'Rest and Ricklaxation'.",
+      "image": "../assets/api/ricks/8.png",
+      "dimension": "W-541",
+      "navigation": [
+        "W-541"
+      ],
+      "morty": {
+        "name": "Toxic Morty",
+        "image": "../assets/api/mortys/8.png"
+      }
+    }
+  ]
+}

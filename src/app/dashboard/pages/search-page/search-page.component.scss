@@ -1,0 +1,14 @@
+.card-picture {
+    width: 19%;
+    height: 288px;
+    text-align: center;
+    margin: 0px 20px 20px 0px;
+    img {
+        height: 285px;
+        margin-top: 0px;
+        border-radius: 0px 0px 5px 5px;
+    }
+    mat-card-title {
+        justify-content: center;
+    }
+}

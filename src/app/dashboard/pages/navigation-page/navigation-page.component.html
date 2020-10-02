@@ -1,0 +1,17 @@
+<form [formGroup]="navigationForm" (ngSubmit)="sendNavigation()"
+    autocomplete="off" novalidate>
+    <mat-dialog-content class="mat-typography">
+        <div class="container">
+            <h2>Para qual dimensão gostaria de ir {{rick.name}}?</h2>
+            <div class="form-group">
+                <input type="text"
+                    class="form-control"
+                    formControlName="navigationName">
+            </div>
+        </div>
+    </mat-dialog-content>
+    <mat-dialog-actions align="end">
+        <button mat-button mat-dialog-close>Abortar</button>
+        <button mat-button [mat-dialog-close]="true" type="submit">Navegar</button>
+    </mat-dialog-actions>
+</form>

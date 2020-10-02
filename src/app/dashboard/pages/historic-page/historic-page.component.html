@@ -1,0 +1,12 @@
+<div fxLayout="row wrap" fxLayout.xs="column" fxLayoutAlign="center">
+    <mat-card class="">
+        <div class="container">
+            <h2>Histórico de navegação do {{rick.name}}</h2>
+            <p>{{rick.navigation}}</p>
+            <div class="buttons">
+                <button mat-raised-button routerLink="/">Voltar para lista</button>
+                <button mat-raised-button routerLink="../">Voltar para os detalhes do {{rick.name}}</button>
+            </div>
+        </div>
+    </mat-card>
+</div>

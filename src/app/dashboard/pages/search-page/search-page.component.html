@@ -1,0 +1,12 @@
+
+<div fxLayout="row wrap" fxLayout.xs="column" fxLayoutAlign="center">
+    <mat-card class="card-picture" *ngFor="let rick of ricks">
+        <mat-card-title fxLayout.gt-xs="row" fxLayout.xs="column">
+            <span>{{rick.name}}</span>
+        </mat-card-title>
+        <mat-card-content>
+            <img mat-card-image [src]="rick.image" alt="{{rick.name}}" class=""
+                routerLink="{{rick.id}}">
+        </mat-card-content>
+    </mat-card>
+</div>
