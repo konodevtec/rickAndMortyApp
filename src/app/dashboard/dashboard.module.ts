@@ -22,7 +22,6 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatDialogModule } from '@angular/material/dialog';
 
 
-import { FlexLayoutModule } from '@angular/flex-layout';
 import { NavigationPageComponent } from './pages/navigation-page/navigation-page.component';
 import { HistoricPageComponent } from './pages/historic-page/historic-page.component';
 
@@ -50,7 +49,6 @@ import { HistoricPageComponent } from './pages/historic-page/historic-page.compo
     MatFormFieldModule,
     MatInputModule,
     MatIconModule,
-    FlexLayoutModule,
     MatGridListModule,
     MatDialogModule,
     FormsModule,
