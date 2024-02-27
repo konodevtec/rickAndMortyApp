@@ -113,7 +113,6 @@
       }
     }
   },
-  "defaultProject": "rickAndMortyApp",
   "cli": {
     "analytics": "9fe4fc25-b1d8-4bcf-916d-e4e923b1187d"
   }

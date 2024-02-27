@@ -1,5 +1,5 @@
 import { Component, Inject, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup,Validators } from '@angular/forms';
+import { UntypedFormBuilder, UntypedFormGroup,Validators } from '@angular/forms';
 import { MatDialog, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { ActivatedRoute } from '@angular/router';
 import { DashboardService } from '../../service/dashboard.service';
@@ -15,13 +15,13 @@ export class NavigationPageComponent implements OnInit {
   loading: boolean;
   rick;
   navigation: string;
-  navigationForm: FormGroup;
+  navigationForm: UntypedFormGroup;
 
   constructor(
     private activeRoute: ActivatedRoute,
     private dashboardService: DashboardService,
     @Inject(MAT_DIALOG_DATA) public data,
-    private formBuilder: FormBuilder,
+    private formBuilder: UntypedFormBuilder,
 
   ) { }
 
