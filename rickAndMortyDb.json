@@ -23,7 +23,8 @@
       "navigation": [
         "C-786",
         "Y-2312",
-        "qqq"
+        "qqq",
+        "terra"
       ],
       "morty": {
         "name": "Alien Morty",
@@ -56,7 +57,9 @@
         "asdasdasd",
         "asdasdasd",
         "sadasdasd",
-        "ssssss"
+        "ssssss",
+        "afro morty",
+        "e33"
       ],
       "morty": {
         "name": "Afro Morty",
@@ -84,7 +87,8 @@
       "image": "../assets/api/ricks/6.png",
       "dimension": "C-142",
       "navigation": [
-        "C-142"
+        "C-142",
+        ""
       ],
       "morty": {
         "name": "Cat Morty",
