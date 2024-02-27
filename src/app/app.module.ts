@@ -28,7 +28,7 @@ import { MatSortModule } from '@angular/material/sort';
     AppRoutingModule,
     DashboardModule,
     BrowserAnimationsModule,
-    RouterModule.forRoot(routes, { relativeLinkResolution: 'legacy' }),
+    RouterModule.forRoot(routes, {}),
     HttpClientModule,
     MatSidenavModule,
     MatTableModule,
