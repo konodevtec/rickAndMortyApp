@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
 import { HistoricPageComponent } from './historic-page.component';
 
@@ -6,7 +6,7 @@ describe('HistoricPageComponent', () => {
   let component: HistoricPageComponent;
   let fixture: ComponentFixture<HistoricPageComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ HistoricPageComponent ]
     })
